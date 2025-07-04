@@ -53,8 +53,6 @@ function Contact() {
                     </div>
                 </div>
 
-                {/* Optional: Questions section and Footer */}
-                {/* Add more here if needed */}
 
             </section>
 
