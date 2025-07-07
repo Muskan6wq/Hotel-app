@@ -62,7 +62,7 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className="text-center text-gray-300 text-sm mt-10">
-                © {new Date().getFullYear()} Capsitech. All rights reserved.
+
             </div>
         </footer>
     );
