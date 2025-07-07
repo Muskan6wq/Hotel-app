@@ -1,7 +1,7 @@
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import ContactForm from "../components/ContactForm";
+import ContactMapSection from "../components/ContactMapSection";
 import Navbar from "../components/Navbar";
-
 
 const Contact = () => {
     return (
@@ -57,7 +57,10 @@ const Contact = () => {
                 {/* Peach background form box */}
                 <div className="max-w-6xl mx-auto bg-[#FFF4EF] p-8 md:p-12 rounded-2xl shadow-sm">
                     <ContactForm />
+
                 </div>
+
+                <ContactMapSection />
             </section>
 
         </>
