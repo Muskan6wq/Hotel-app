@@ -2,7 +2,7 @@ import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import ContactFAQ from "../components/ContactFAQ";
 import ContactForm from "../components/ContactForm";
 import ContactMapSection from "../components/ContactMapSection";
-import FooterContact from "../components/FooterContact";
+import Footer from "../components/Footer2";
 import Navbar from "../components/Navbar";
 
 const Contact = () => {
@@ -64,7 +64,8 @@ const Contact = () => {
 
                 <ContactMapSection />
                 <ContactFAQ />
-                <FooterContact />
+                {/* <FooterContact /> */}
+                <Footer />
             </section>
 
         </>
