@@ -1,5 +1,7 @@
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import ContactForm from "../components/ContactForm";
 import Navbar from "../components/Navbar";
+
 
 const Contact = () => {
     return (
@@ -39,20 +41,25 @@ const Contact = () => {
                 </div>
             </div>
 
-            {/* Centered Heading below */}
-            <div className="mt-12 text-center">
-                <h3 className="text-2xl md:text-3xl font-semibold mb-2">
-                    Get in touch with us.
-                </h3>
-                <p className="text-gray-600 text-lg">We're here to assist you.</p>
-            </div>
 
+            {/* Contact form section */}
 
+            <section className="bg-white py-12 px-4">
+                <div className="text-center mb-10">
+                    <h3 className="text-2xl md:text-3xl font-semibold mb-2">
+                        Get in touch with us.
+                    </h3>
+                    <p className="text-gray-600 text-lg">
+                        We're here to assist you.
+                    </p>
+                </div>
 
-            {/* Form section starts */}
-            <div div className="bg-white py-10 px-4" >
-                {/* form goes here (you already have it) */}
-            </div >
+                {/* Peach background form box */}
+                <div className="max-w-6xl mx-auto bg-[#FFF4EF] p-8 md:p-12 rounded-2xl shadow-sm">
+                    <ContactForm />
+                </div>
+            </section>
+
         </>
     );
 };
