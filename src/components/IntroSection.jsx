@@ -1,4 +1,4 @@
-import houseImg from "./assets/He.png";
+import houseImg from "../assets/He.png";
 
 function IntroSection() {
     return (

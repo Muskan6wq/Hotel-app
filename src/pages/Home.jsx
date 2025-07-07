@@ -1,7 +1,7 @@
 import FilterBar from "../components/FilterBar";
 import Navbar from "../components/Navbar";
 
-import IntroSection from "../IntroSection";
+import IntroSection from "../components/IntroSection";
 import Cards from "../components/Cards";
 
 
