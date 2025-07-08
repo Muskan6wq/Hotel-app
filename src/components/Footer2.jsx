@@ -3,10 +3,10 @@
 const Footer = () => {
     return (
 
-        <footer class="bg-[#f7e7de] p-8 md:p-10 lg:p-12 font-sans text-gray-800 rounded-lg shadow-md max-w-4xl mx-auto">
+        <footer class="bg-[#f4ded3] p-8  md:p-10 lg:p-12 font-sans text-gray-800 rounded-lg shadow-md max-w-4xl  mx-auto">
             <div class="flex flex-wrap justify-between gap-y-8">
                 <div class="w-full md:w-1/4 lg:w-1/5 pr-4">
-                    <h3 class="text-xl font-semibold mb-4 text-gray-700">Dwelle</h3>
+                    <h3 class="text-3xl font-bold mb-3 text-black">Dwelle</h3>
                     <p class="text-sm leading-relaxed">Bringing you closer to your dream home, one click at a time.</p>
                 </div>
 

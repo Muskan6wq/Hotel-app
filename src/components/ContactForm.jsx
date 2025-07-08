@@ -3,12 +3,12 @@ import { FaCloudUploadAlt } from "react-icons/fa";
 
 const ContactForm = () => {
     return (
-        <div className="bg-[#FFF4EF] max-w-5xl mx-auto p-8 md:p-12 rounded-2xl shadow-sm text-left pb-12 ">
-            <form className="grid md:grid-cols-2 gap-6">
+        <div className="bg-[#FFF4EF] max-w-5xl mx-auto p-4 md:p-2 rounded-2xl shadow-sm text-left pb-12 ">
+            <form className="grid md:grid-cols-2 gap-6 ">
 
                 {/* Full name */}
                 <div>
-                    <label className="block text-sm font-medium text-gray-800 mb-1">Full name</label>
+                    <label className="block text-sm font-medium text-gray-800 mb-1 ">Full name</label>
                     <input type="text" className="w-full border-b border-gray-400 bg-transparent p-2 outline-none" />
                 </div>
 

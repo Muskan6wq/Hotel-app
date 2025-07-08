@@ -3,7 +3,7 @@ const Cards = () => {
     return (
         <section className="bg-white px-6 md:px-16 py-12">
             <div className="text-center mb-10">
-                <h2 className="text-3xl font-semibold text-gray-800 mb-2">Why Choose Us</h2>
+                <h2 className="text-4xl font-bold text-black mb-2">Why Choose Us</h2>
                 <p className="text-gray-500 max-w-2xl mx-auto">
                     Elevating Your Home Buying Experience with Expertise, Integrity, and Unmatched Personalized Service
                 </p>
