@@ -9,7 +9,7 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <section className="bg-[#fdf4ef] p-10 flex flex-col md:flex-row justify-between max-w-3xl items-center gap-8">
+            <section className="bg-[#fdf4ef] p-10 xl:py-2 flex flex-col md:flex-row justify-between  items-center gap-8">
                 <div className="max-w-xl mx-4">
                     <h2 className="text-6xl font-bold text-black mb-4 ">Find Your Dream Home</h2>
                     <p className="text-gray-600 mb-6 ">
@@ -24,7 +24,7 @@ function Home() {
             </section>
 
             {/*FilterBar */}
-            <div className="mt-16">
+            <div className="-mt-20 ">
                 <FilterBar />
             </div>
 
@@ -51,7 +51,7 @@ function Home() {
                                             <span class="w-4 h-4 bg-yellow-200 rounded mr-1"></span> 3,000 Sqft
                                         </span>
                                     </div>
-                                    <p class="text-blue-600 font-bold text-xl mb-4">$3,500,000</p>
+                                    <p class="text-blue-600 font-bold text-xl mb-4 lg:mx-40 md:mx-10">$3,500,000</p>
                                     <a href="#" class="block w-full text-center bg-gray-900 text-white py-3 px-4 rounded-md hover:bg-gray-700 transition-colors duration-300">
                                         Sign up
                                     </a>
@@ -74,7 +74,7 @@ function Home() {
                                             <span class="w-4 h-4 bg-yellow-200 rounded mr-1"></span> 2,500 Sqft
                                         </span>
                                     </div>
-                                    <p class="text-blue-600 font-bold text-xl mb-4">$800,000</p>
+                                    <p class="text-blue-600 font-bold text-xl mb-4 lg:mx-40 md:mx-10">$800,000</p>
                                     <a href="#" class="block w-full text-center bg-gray-900 text-white py-3 px-4 rounded-md hover:bg-gray-700 transition-colors duration-300">
                                         sign up
                                     </a>
@@ -87,16 +87,16 @@ function Home() {
                                 <img src="https://tse2.mm.bing.net/th/id/OIP.bRTfe7kLCmZ2sunl8yCr9QHaD-?pid=Api&P=0&h=180" alt="Palo Alto Residence" class="w-full h-48 object-cover" />
                                 <div class="p-5">
                                     <h3 class="text-lg font-semibold text-gray-800">Palo Alto, California</h3>
-                                    <div class="flex items-center text-gray-600 text-sm mb-3">
-                                        <span class="flex items-center mr-3 mt-3">
-                                            <span class="w-4 h-4 bg-blue-200 rounded mr-1"></span> 5 rooms
+                                    <div class="flex items-center text-gray-600 text-sm mb-3  md:mt-4 lg:mt-0 ">
+                                        <span class="flex items-center mr-3  ">
+                                            <span class="w-4 h-4  bg-blue-200 rounded mr-1"></span> 5 rooms
                                         </span>
 
                                         <span class="flex items-center">
-                                            <span class="w-4 h-4 bg-yellow-200 rounded mr-1"></span> 3,700 Sqft
+                                            <span class="w-4 h-4 bg-yellow-200 rounded mr-1 "></span> 3,700 Sqft
                                         </span>
                                     </div>
-                                    <p class="text-blue-600 font-bold text-xl mb-7">$5,700,000</p>
+                                    <p class="text-blue-600 font-bold text-xl mb-4 lg:mx-40 md:mx-10 md:mt-6 lg:mt-0">$5,700,000</p>
                                     <a href="#" class="block w-full text-center bg-gray-900 text-white py-3 px-4 rounded-md hover:bg-gray-700 transition-colors duration-300">
                                         sign up
                                     </a>
@@ -121,7 +121,7 @@ function Home() {
                                             <h3 class="text-lg font-semibold text-gray-800">Sarah Nguyen</h3>
                                             <p class="text-gray-600 text-sm">New York, USA</p>
                                         </div>
-                                        <div class="flex ml-auto">
+                                        <div class="flex  flex-col lg:flex-row ml-auto ">
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
@@ -145,7 +145,7 @@ function Home() {
                                             <h3 class="text-lg font-semibold text-gray-800">Michael Rodriguez</h3>
                                             <p class="text-gray-600 text-sm">Los Angeles, USA</p>
                                         </div>
-                                        <div class="flex ml-auto">
+                                        <div class="flex  flex-col lg:flex-row ml-auto ">
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
@@ -169,7 +169,7 @@ function Home() {
                                             <h3 class="text-lg font-semibold text-gray-800">Emily Johnson</h3>
                                             <p class="text-gray-600 text-sm">Chicago, USA</p>
                                         </div>
-                                        <div class="flex ml-auto">
+                                        <div class="flex  flex-col lg:flex-row ml-auto ">
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
                                             <svg class="w-5 h-5 text-yellow-500 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.693 7.502 8.307 1.205-6.002 5.858 1.416 8.261L12 18.25l-7.414 3.963 1.416-8.261L.0 9.294l8.307-1.205L12 .587z" /></svg>
